@@ -1,0 +1,30 @@
+2019-04-02 23:47:30|ERROR|App.Approval.addApprovalItemAction|exception 'PDOException' with message 'Data truncated for column 'start_time' at row 1' in E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:264
+Stack trace:
+#0 E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(362): NotORM_Result->query('INSERT  INTO ap...', Array)
+#1 E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(379): NotORM_Result->insert_multi(Array)
+#2 E:\wamp64\www\phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(42): NotORM_Result->insert(Array)
+#3 E:\wamp64\www\phalapi\src\app\Api\Approval.php(42): PhalApi\Model\NotORMModel->insert(Array)
+#4 [internal function]: App\Api\Approval->addApprovalItemAction()
+#5 E:\wamp64\www\phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#6 E:\wamp64\www\phalapi\public\index.php(14): PhalApi\PhalApi->response()
+#7 {main}
+2019-04-02 23:49:39|ERROR|App.Approval.addApprovalItemAction|exception 'PDOException' with message 'Field 'id' doesn't have a default value' in E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:264
+Stack trace:
+#0 E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(362): NotORM_Result->query('INSERT  INTO ap...', Array)
+#1 E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(379): NotORM_Result->insert_multi(Array)
+#2 E:\wamp64\www\phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(42): NotORM_Result->insert(Array)
+#3 E:\wamp64\www\phalapi\src\app\Api\Approval.php(42): PhalApi\Model\NotORMModel->insert(Array)
+#4 [internal function]: App\Api\Approval->addApprovalItemAction()
+#5 E:\wamp64\www\phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#6 E:\wamp64\www\phalapi\public\index.php(14): PhalApi\PhalApi->response()
+#7 {main}
+2019-04-02 23:50:07|ERROR|App.Approval.addApprovalItemAction|exception 'PDOException' with message 'Column 'id' cannot be null' in E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php:264
+Stack trace:
+#0 E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(362): NotORM_Result->query('INSERT  INTO ap...', Array)
+#1 E:\wamp64\www\phalapi\vendor\phalapi\notorm\src\NotORM\Result.php(379): NotORM_Result->insert_multi(Array)
+#2 E:\wamp64\www\phalapi\vendor\phalapi\kernal\src\Model\NotORMModel.php(42): NotORM_Result->insert(Array)
+#3 E:\wamp64\www\phalapi\src\app\Api\Approval.php(43): PhalApi\Model\NotORMModel->insert(Array)
+#4 [internal function]: App\Api\Approval->addApprovalItemAction()
+#5 E:\wamp64\www\phalapi\vendor\phalapi\kernal\src\PhalApi.php(53): call_user_func(Array)
+#6 E:\wamp64\www\phalapi\public\index.php(14): PhalApi\PhalApi->response()
+#7 {main}
